@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#contact">Contacts</a>
+        </div>
+
+        <!--Hero Section-->
+        <div class="hero-image">
+            <img src="img/me.jpg" style="width:75%">
+            <div class="hero-text">
+                <h1 id="home">Hi my name is Andrew Devito</h1>
+                <p>I am a software engineering student</p>
+            </div>
+        </div>
+
+        <!--About section-->
+        <div class="about-section">
+            <h1 id="about">About Us Page</h1>
+            <p>I do website building programs</p>
+        </div>
+
+        <!--Work experience section-->
+        <div class="work-experience">
+            <h1 id="work">Work Experience</h1>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Old Project one</a> <br /><br />
+            <a href="https://www.google.ca/search?q=do+a+barrel+roll&ei=W6sjY9XtD-PJptQPhaO-8Ag&oq=zerg+rush&gs_lcp=Cgdnd3Mtd2l6EAEYADIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIHCAAQsAMQQzIHCAAQsAMQQzIHCAAQsAMQQzIHCAAQsAMQQzINCAAQ5AIQ1gQQsAMYATINCAAQ5AIQ1gQQsAMYATINCAAQ5AIQ1gQQsAMYATIPCC4Q1AIQyAMQsAMQQxgCMgwILhDIAxCwAxBDGAIyDwguENQCEMgDELADEEMYAjIVCC4QxwEQ0QMQ1AIQyAMQsAMQQxgCSgQIQRgASgQIRhgBUABYAGDeD2gBcAF4AIABAIgBAJIBAJgBAMgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz">Old Project two</a> <br /><br />
+            <a href="https://www.tsn.ca/">Old Project three</a>
+        </div>
+
+        <!--contact section-->
+        <div class="container">
+            <div style="text-align:center">
+                <h2 id="contact">Contact Us</h2>
+                <p>Leave us a Message:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="img/contact.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="thankyou.html" method="post">
+                        <label for="fname">FirstName</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name">
+                        <label for="lname>Last Name"></label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="canada">Canada</option>
+                            <option value="france">France</option>
+                            <option value="italy">Italy</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholde="" style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </body>
+</html>

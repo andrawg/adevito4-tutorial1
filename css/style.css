@@ -1,0 +1,156 @@
+/* Adding a background colour to the top navigation */
+.topnav{
+    background-color: rgb(18, 18, 18);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-allign: center;
+    padding: 14px 16px;
+    text-decloration: none;
+    font-size: 17px;
+}
+
+/* Change the colour of the links on hover */
+.topnav a:hover {
+    background-color: #ff0000;
+    color: black;
+}
+
+/* Add a color to the current link */
+.topnav a:active {
+    background-color: #ff0000;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    background-color: rgb(18, 18, 18);
+}
+
+/* hero image */
+.hero-image {
+    /* Set a height */
+    max-height: 100%;
+
+    /* center the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* placing the text in the middle of the image */
+.hero-text {
+    text-allign: center;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+/* Work experience */
+.work-experience {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(18, 18, 18);
+    color: white
+}
+
+.work-experience a {
+    color: #f2f2f2;
+    text-allign: center;
+    padding: 14px 16px;
+    text-decloration: none;
+    font-size: 17px;
+}
+
+.work-experience a:hover {
+    background-color: #ff0000;
+    color: black;
+}
+
+.work-experience a:active {
+    background-color: #ff0000;
+    color: white;
+}
+
+/* Contact */
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type-text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff0000;
+}
+
+/* Stlye the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* When the screen is less than 600px make the two columns stack on top of each other */
+@media screen and (max-width: 600px) {
+    .column, input[type-submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    text-align: center;
+}
